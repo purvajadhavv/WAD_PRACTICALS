@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <!-- <a routerLink="comp2" class="login-link">Already have an account? Login</a>
+      <router-outlet></router-outlet> -->
+
+      <button type="submit" (click)="change()">Sign Up</button>
+    </form>
+  </body>
+</html>
